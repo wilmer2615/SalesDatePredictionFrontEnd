@@ -1,5 +1,3 @@
-# SalesDatePredictionFrontEnd
-
 # Sales Date Prediction - Frontend
 
 Este repositorio contiene el proyecto **frontend** desarrollado en Angular para la aplicación Sales Date Prediction. La aplicación ofrece una interfaz de usuario para visualizar órdenes, realizar predicciones y gestionar datos relacionados.
