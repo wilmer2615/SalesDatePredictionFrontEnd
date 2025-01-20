@@ -1,0 +1,76 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  
+  .header{
+    display: flex; 
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+  }
+
+  .search{
+    width:50%;
+  }
+
+  .title{
+    margin-top: 20px;
+  }
+
+  .search button[mat-icon-button] {
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-view{
+    color: #a70f0f;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .text-new{
+    color: #22af61;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .mat-column-id,
+  .mat-column-progress,
+  .mat-column-name {
+    width: 16.66%;
+  }
+  
+  .mat-column-viewOrders,
+  .mat-column-newOrders {
+    width: 25%; 
+  }
+  
+  .mat-header-row,
+  .mat-row {
+    display: table; 
+    width: 100%;
+    table-layout: fixed; 
+  }
+
+  .mat-column-viewOrders[_ngcontent-ng-c3505090849], .mat-column-newOrders[_ngcontent-ng-c3505090849]{
+    text-align: center;
+  }
+
+  .mat-header-cell {
+    font-weight: bold;
+  }

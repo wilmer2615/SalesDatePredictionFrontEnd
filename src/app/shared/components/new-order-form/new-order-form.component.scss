@@ -1,0 +1,126 @@
+
+  .mat-form-field {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .section-title {
+    margin: 16px 0 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  mat-dialog-content {
+    overflow: hidden;
+  }
+    
+  .custom-dialog-content[_ngcontent-ng-c4141791237]{
+    max-width: 100%;
+  }  
+
+  .container-selects{
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+ 
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px; 
+  }
+  
+  /* Asegura que los inputs se ajusten y no se desborden */
+  .custom-form-field {
+    flex: 1 1 30%; 
+    min-width: 30%; 
+  }
+  
+  /*asegurar que se ajusten a pantallas pequeñas */
+  @media (max-width: 600px) {
+    .custom-form-field {
+      flex: 1 1 100%; 
+    }
+  }
+  
+  .mat-form-field-appearance-standard .mat-form-field-flex {
+    padding-top: 0;
+}
+
+.input-shipper{
+    flex: 1;
+}
+
+.input-employee{
+    flex: 1;
+    margin-right: 16px;
+}
+
+/* Asegura que el contenido del modal ocupe todo el espacio disponible, pero no se desborde */
+.custom-dialog-content {
+    max-height: 80vh;    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* En pantallas pequeñas los campos de formulario ocuparán el 100% del ancho */
+  @media (max-width: 600px) {
+    .custom-form-field {
+      flex: 1 1 100%;
+    }
+  }
+  
+  mat-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto; 
+  }
+  
+  mat-dialog-actions button.mat-raised-button {
+    background: none !important; 
+    border: none !important; 
+    color: #4CAF50 !important; 
+    box-shadow: none !important; 
+    padding: 8px 16px; 
+    cursor: pointer;
+  }
+  
+  mat-dialog-actions button.mat-button {
+    background: none !important; 
+    border: none !important; 
+    color: #4CAF50 !important; 
+    box-shadow: none !important; 
+    padding: 8px 16px; 
+    cursor: pointer; 
+  }
+  
+  /* Eliminar el sombreado al pasar el cursor sobre el botón Close */
+  mat-dialog-actions button.mat-button:hover {
+    background: none !important;
+    box-shadow: none !important; 
+  }
+    
+  mat-dialog-actions button:hover {
+    text-decoration: underline; 
+    color: #64ae67; 
+  }
+
+.navb-green{
+    background:#64ae67;
+    height: 45px;
+    margin: -24px -24px 0 -24px;
+    display: flex;
+    align-items: center;
+}
+
+.text-title{
+  color: white;
+  margin-left: 20px;  
+  font-size: 16px;
+}
+  
